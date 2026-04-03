@@ -15,14 +15,7 @@
   "regions": ["iad1"],
   "functions": {
     "api/**": {
-      "memory": 1024,
-      "timeout": 60,
-      "regions": ["iad1"]
-    },
-    "api/webhooks/stripe": {
-      "memory": 512,
-      "timeout": 30,
-      "regions": ["iad1"]
+      "memory": 1024
     }
   },
   "rewrites": [
